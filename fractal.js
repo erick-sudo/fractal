@@ -53,7 +53,7 @@ let interval = setInterval(()=> {
 	} else if (angle<0) {
 		flag = true
 	}
-	angle = flag ? angle +=0.001 : angle-=0.01
+	angle = flag ? angle +=0.01 : angle-=0.01
 	drawFractals(W/2, H*0.2, angle, 0.82)
-}, 1)
+}, 10)
 
