@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#canvas-wrapper {
+    background-color: rgba(19, 109, 42, 0.082);
+    width: max-content;
+    height: max-content;
+    margin: 1em auto;
+    border: solid 3px rgb(10, 68, 68);
+}
+
+canvas{
+    background-color: transparent;
+    display: block;
+}
+html{
+    background-color: black;
+}
