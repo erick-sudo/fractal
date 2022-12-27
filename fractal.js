@@ -54,6 +54,6 @@ let interval = setInterval(()=> {
 		flag = true
 	}
 	angle = flag ? angle +=0.01 : angle-=0.01
-	drawFractals(W/2, H*0.2, angle, 0.82)
+	drawFractals(W/2, H*0.4, angle, 0.75)
 }, 10)
 
